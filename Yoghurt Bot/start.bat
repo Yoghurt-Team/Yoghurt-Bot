@@ -1,7 +1,7 @@
 @echo off
 color e
 title Yoghurt Bot
-echo If you click any button, the bot starts.
+echo Botu başlatmak için herhangi bir tuşa basınız.
 PAUSE
 :a
 node bot.js
