@@ -1,17 +1,17 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const ayarlar = require('./settings.json');
+
 
 exports.run = (client, message) => {
   if (message.channel.type !== 'dm') {
     const ozelmesajkontrol = new Discord.RichEmbed()
-    .setColor(ayarlar.renk)
+    .setColor(0x6A197D)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
     .setDescription('Özel mesajlarını kontrol et. :postbox:');
     message.channel.sendEmbed(ozelmesajkontrol) }
 	const pingozel = new Discord.RichEmbed()
-    .setColor(ayarlar.renk)
+    .setColor(0x6A197D)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
     .setDescription('Davet Linkim: ' + ayarlar.davet);

@@ -2,9 +2,8 @@
 	"sahip": "SAHIP ID",
 	"botadi": "BOTUNUZUN ADI",
 	"davet": "BOT DAVET LİNKİNİ YAZINIZ",
-	"botserverlink": "446030171154284564",
 	"prefix": "y!",
 	"surum": "0.0.1",
-	"token": "BOTUN TOKENİ",
+	"token": "BOT TOKENINIZ",
 	"renk": "0x6A197D"
 }
