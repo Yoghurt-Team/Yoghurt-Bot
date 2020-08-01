@@ -9,7 +9,7 @@ Bu bot ile siz de artık Windows VDS üzerinden 7/24 bir bota sahip olabileceksi
 Windows:
 
 ```sh
-Ayarlar.json dosyanızı kendinize göre ayarladıktan sonra start.bat ile başlatabilirsiniz.
+settings.json dosyanızı kendinize göre ayarladıktan sonra start.bat ile başlatabilirsiniz.
 ```
 
 ## Güncelleme Notları
